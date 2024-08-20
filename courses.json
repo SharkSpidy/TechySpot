@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Flutter for Beginners",
+        "description": "An introduction to Flutter for creating beautiful mobile apps.",
+        "category": "For Schools"
+    },
+    {
+        "title": "AI with Robotics",
+        "description": "Integrate AI into your robotics projects and automate tasks.",
+        "category": "For Companies"
+    },
+    {
+        "title": "Logistics with AI",
+        "description": "Optimize logistics operations using advanced AI techniques.",
+        "category": "For General Public"
+    },
+    {
+        "title": "Public Workshops on AI",
+        "description": "Empower yourself with the knowledge of AI through our public workshops.",
+        "category": "For General Public"
+    }
+]

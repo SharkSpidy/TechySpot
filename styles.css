@@ -1,0 +1,216 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Logo Styles */
+.logo {
+    height: 60px; /* Adjust the height to make the logo smaller */
+    width: auto; /* Keeps the aspect ratio intact */
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-bg.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial {
+    flex-basis: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial h3 {
+    margin-top: 15px;
+    color: #007bff;
+}
+
+
+/* Hero Section for Services */
+.services-hero {
+    background: url('images/services-bg.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    flex-basis: 45%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: #555;
+}
+
+.service:hover {
+    background: #f4f4f4;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.category:hover, .service:hover {
+    background: #eaeaea;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Navigation Active Link Styles */
+nav ul li a.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Button Hover Effect */
+.auth .btn:hover {
+    background: #0056b3;
+    transition: background 0.3s ease;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery .image-item {
+    width: calc(33.333% - 20px);
+}
+
+.gallery .image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive Logo Sizing */
+@media (max-width: 768px) {
+    .logo {
+        height: 40px; /* Smaller on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 30px; /* Even smaller on mobile devices */
+    }
+}
+
